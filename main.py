@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from ctransformers import AutoModelForCausalLM
+import AutoModelForCausalLM
 
 # App title
 st.set_page_config(page_title="🦙💬 Llama 2 Chatbot")
